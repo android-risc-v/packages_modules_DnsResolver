@@ -241,7 +241,7 @@ cc_library {
         symbol_file: "libnetd_resolv.map.txt",
     },
     sanitize: {
-        cfi: true,
+        cfi: false,
     },
     apex_available: ["com.android.resolv"],
     min_sdk_version: "29",
